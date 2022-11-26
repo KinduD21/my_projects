@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: url("../img/ukraine.jpg");
+    background-repeat: round;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card {
+    width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background: url("../img/watercolor.jpg");
+    background-repeat: round;
+    box-shadow: 0 10px 10px;
+}
+
+.card-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 24px;
+    text-align: center;
+    color: #0093ff;
+}
+
+.card-text {
+    font-size: 16px;
+}
+.card-subtitle {
+    font-size: 22px;
+    color: #7c2aff;
+}
+
+.card-list {
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 16px;
+}
+
+
+
+

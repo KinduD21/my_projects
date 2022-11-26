@@ -1,0 +1,155 @@
+.modal_login_wrapper {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_input_wrapper {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  padding: 40px;
+  min-width: 350px;
+}
+
+.modal_input_wrapper button {
+  width: 100%;
+}
+
+.modal_input_child {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.modal_close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.modal_close:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.modal_input {
+  height: 30px;
+  border-radius: initial;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #777;
+}
+
+.modal_input:focus {
+  border-radius: initial;
+  outline: 0;
+  border: none;
+  border-bottom: 2px solid #5555ff;
+}
+
+.modal_sign_up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.modal_sign_up::before {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 1;
+  background-color: rgb(182, 181, 181);
+}
+
+.modal_sign_up::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 1;
+  background-color: rgb(182, 181, 181);
+}
+
+.modal_input_wrapper a {
+  padding-top: 0;
+}
+
+.modal_sign_up p {
+  opacity: 50%;
+}
+
+.modal_sign_up button {
+  border: 1px solid #5555ff;
+}
+
+.js_description_active {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #5555ff;
+  justify-content: space-around;
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 1px 0.5px 3px #090842;
+  max-width: 100%;
+  height: 500px;
+}
+
+.js_description_button {
+  color: #5555ff;
+  background-color: white;
+}
+
+.js_description_text p {
+  color: white;
+}
+
+.modal_form_wrapper {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_form_window {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 40px;
+  min-width: 350px;
+  border-radius: 10px;
+  position: relative;
+}
